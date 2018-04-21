@@ -1,5 +1,5 @@
 /*
- * Cybernetic Stylesheet Copy+Paste Version
+ * Your Stylesheet
  *
  * This stylesheet is loaded when Atom starts up and is reloaded automatically
  * when it is changed and saved.
@@ -440,6 +440,11 @@ atom-text-editor {
     }
   }
 
+  .syntax--entity.syntax--name.syntax--tag {
+   text-decoration:none;
+   background-color:#003300;
+  }
+
   .syntax--source.syntax--gfm .syntax--markup {
     -webkit-font-smoothing: auto;
     &.syntax--heading {
@@ -526,4 +531,3 @@ atom-text-editor {
     height: 50px !important;
   }
 }
-
